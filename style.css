@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+
+main {
+  background-color: #c4c4c4;
+  width: 661px;
+  height: 763px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.wrapper {
+  padding-left: 77px;
+  padding-top: 62px;
+  width: 661px;
+  height: 763px;
+}
+
+button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.search-cards {
+  width: 500px;
+  color: black;
+  margin-bottom: 45px;
+  box-sizing: border-box;
+}
+
+.text-area {
+  box-sizing: border-box;
+  width: 500px;
+  height: 61px;
+  font-size: 48px;
+  padding-left: 13px;
+  border: none;
+}
+
+.text-area:focus {
+  outline: none;
+}
+
+.card {
+  box-sizing: border-box;
+  display: block;
+  background-color: #e3e3e3;
+  width: 500px;
+  height: 44px;
+  font-size: 30px;
+  border: 2px solid black;
+  cursor: pointer;
+  padding-left: 13px;
+}
+
+.card:hover {
+  background: #65cdf9;
+}
+
+.rep-card {
+  position: relative;
+  height: 101px;
+  background-color: #e27beb;
+  font-size: 24px;
+  padding: 8px 16px;
+  border: 1px solid black;
+  box-sizing: border-box;
+  width: 500px;
+}
+
+.close-button {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  top: 30px;
+  right: -20px;
+  background: no-repeat
+    url("data:image/svg+xml;charset=UTF-8,%3csvg width='46' height='42' viewBox='0 0 46 42' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M2 40.5L44 2' stroke='%23FF0000' stroke-width='4'/%3e%3cpath d='M44 40.5L2 2' stroke='%23FF0000' stroke-width='4'/%3e%3c/svg%3e ");
+}
